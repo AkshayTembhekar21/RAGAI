@@ -75,7 +75,7 @@ user_input = ""
 while True:
     query = input('Your Prompt:\n')
     if query in ['quit', 'exit', 'bye']:
-        print('Have a great Trip')
+        print('Have a great day')
         break
     # Perform similarity search directly with the query string
     search_results = vectorstore.similarity_search(query, k=3)
